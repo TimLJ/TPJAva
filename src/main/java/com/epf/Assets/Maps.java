@@ -13,7 +13,7 @@ public class Maps {
     }
 
     public Maps() {
-
+        //Constructeur vide
     }
 
     public int getLigne() {return ligne;}
@@ -22,6 +22,6 @@ public class Maps {
     public int getColonne() {return colonne;}
     public void setColonne(int colonne) {this.colonne = colonne;}
 
-    public  String getChemin_image() {return chemin_image;}
+    public String getChemin_image() {return chemin_image;}
     public void setChemin_image(String chemin_image) {this.chemin_image = chemin_image;}
 }
